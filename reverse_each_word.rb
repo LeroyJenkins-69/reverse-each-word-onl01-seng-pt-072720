@@ -1,7 +1,8 @@
 phrase = "Hello there, and how are you?"
 def reverse_each_word(phrase)
-  array =
-  array.each do |re|
-    re.split(" ")
+  array = phrase.split
+  ary = []
+  array.each do |stuff|
+    ary << stuff.reverse
   end
 end
