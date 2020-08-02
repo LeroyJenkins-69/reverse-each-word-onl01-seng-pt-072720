@@ -6,4 +6,5 @@ def reverse_each_word(phrase)
     ary << stuff.reverse
     ary.split
   end
+  ary.join(" ")
 end
