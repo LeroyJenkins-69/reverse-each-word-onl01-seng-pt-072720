@@ -9,3 +9,4 @@ def reverse_each_word(phrase)
   ary2 = ary.collect {|stuff| stuff.reverse}
   ary.join(" ") && array.join(" ")
 end
+reverse_each_word
