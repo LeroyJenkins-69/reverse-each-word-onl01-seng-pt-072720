@@ -8,5 +8,5 @@ def reverse_each_word(phrase)
   ary = phrase.split
   ary2 = ary.collect do |stuff|
     stuff.reverse
-  ary.join(" ") && array
+  ary.join(" ") && array.join(" ")
 end
